@@ -1,12 +1,37 @@
-# React + Vite
+# Limbo Casino Game 🎰
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simplified version of the Limbo Casino Game built using **React** and **Framer Motion**.  
+Players can enter a bet amount and a target multiplier, then watch the counter animate until it either hits the chosen multiplier (win) or crashes (loss).
 
-Currently, two official plugins are available:
+## 🚀 Features
+- Enter **Bet Amount** and **Target Multiplier**
+- **Animated multiplier counter** using Framer Motion
+- **Random crash multiplier** each round
+- **Win/Loss results** with payout calculation
+- **Balance tracking**
+- **History of last crash multipliers** (bonus)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
+- React
+- Vite
+- TailwindCSS
+- Framer Motion
+- Tabler Icons
 
-## Expanding the ESLint configuration
+## ▶️ How to Run
+1. Clone this repo:
+   ```bash
+   git clone <repo-url>
+   cd limbo-casino
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. Install dependencies:
+   ```bash
+   npm install
+
+ 
+3. Start the dev server:
+   ```bash
+   npm run dev
+
+
+
