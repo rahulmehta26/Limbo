@@ -1,6 +1,6 @@
 import React from 'react';
 
-const RecentCrashes = ({ crashHistory }) => {
+const RecentCrashes = ({ crashHistory = "0" }) => {
     return (
         <div className="md:absolute top-2 right-0">
             {crashHistory.length > 0 && (
